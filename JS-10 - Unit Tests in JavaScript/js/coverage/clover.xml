@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1591103289023" clover="3.2.0">
-  <project timestamp="1591103289023" name="All files">
-    <metrics statements="27" coveredstatements="23" conditionals="4" coveredconditionals="4" methods="16" coveredmethods="12" elements="47" coveredelements="39" complexity="0" loc="27" ncloc="27" packages="2" files="3" classes="3"/>
+<coverage generated="1591105670153" clover="3.2.0">
+  <project timestamp="1591105670153" name="All files">
+    <metrics statements="29" coveredstatements="25" conditionals="6" coveredconditionals="6" methods="16" coveredmethods="12" elements="51" coveredelements="43" complexity="0" loc="29" ncloc="29" packages="2" files="3" classes="3"/>
     <package name="calculator">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
       <file name="calculator.js" path="C:\Users\mokha\Documents\JS\JS-10 - Unit Tests in JavaScript\js\calculator\calculator.js">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
     <package name="user">

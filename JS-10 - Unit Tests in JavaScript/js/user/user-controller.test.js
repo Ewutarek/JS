@@ -26,7 +26,6 @@ test('remove user to userController', () => {
   //remove user
   test('remove user to userController', () => {    
     let user = new User(1111,"Keratuwe", "Keratuwe@gmail.com");
-    // userController.add(user);
     userController.remove(user);
     expect(userController.remove(user)).toEqual(undefined);
   });
