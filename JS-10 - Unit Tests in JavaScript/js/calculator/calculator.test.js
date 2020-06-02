@@ -15,3 +15,23 @@ test('subtract 5 - 4 to equal 1', () => {
 test('subtract -5 - -10 to equal 5', () => {
   expect(calculator.subtract(-5, -10)).toBe(5);
 });
+
+test('divide 9 /3 equal to 3', () => {
+  expect(calculator.divide(9,3)).toBe(3);
+});
+
+test('divide 2 /0 equal to infinity', () => {
+  expect(calculator.divide(2,0)).toBe(Infinity);
+});
+
+test('multiply -10 * 32 equal to -320', () => {
+  expect(calculator.multiply(-10,32)).toBe(-320);
+});
+
+test('multiply 0 * 8 equal to 0', () => {
+  expect(calculator.multiply(0,8)).toBe(0);
+});
+
+
+
+
